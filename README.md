@@ -6,6 +6,16 @@ Hi, I'm Ethan — a senior-level physics and maths student at Tennessee Tech Uni
 
 ---
 
+## What This Project Does
+
+* Simulates a single or multiple GBM stock price paths
+* Plots them over time
+* Demonstrates how volatility and drift affect long-term outcomes
+
+This forms the base for more complex models like Monte Carlo simulations for portfolios, option pricing, or risk modeling, which are discussed later on.
+
+---
+
 ## What is Geometric Brownian Motion?
 
 GBM is a stochastic process widely used to model the behavior of stock prices over time. It assumes:
@@ -37,14 +47,6 @@ where:
 * $Z_t$: A random value drawn from a standard normal distribution (mean 0, standard deviation 1). 
 
 This formula basically says: take the current price, and adjust it using both the average return and some randomness. That’s what gives the simulated path its wiggly, realistic shape. It’s powerful because it captures the idea that while we can expect growth over time, prices also bounce around in unpredictable ways.
-
-## What This Project Does
-
-* Simulates a single or multiple GBM stock price paths
-* Plots them over time
-* Demonstrates how volatility and drift affect long-term outcomes
-
-This forms the base for more complex models like Monte Carlo simulations for portfolios, option pricing, or risk modeling, which are discussed later on.
 
 ---
 
@@ -123,7 +125,7 @@ This model demonstrates:
 
 ## Questions?
 
-If you have any questions, feel free to email me through my contacts on [my website](ewhites.github.io)
+If you have any questions, feel free to email me through my contacts on [my website!](ewhites.github.io)
 
 ---
 
